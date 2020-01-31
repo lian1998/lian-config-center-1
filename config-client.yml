@@ -15,11 +15,6 @@ eureka:
   instance:
     instance-id: lian-note-users-hystrix-8001
     prefer-ip-address: true
-info:
-  app.name: lian-note-users
-  company.name: www.lian1998.xyz
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
 ---
 spring:
   profiles: dev
@@ -34,8 +29,3 @@ eureka:
   instance:
     instance-id: lian-note-users-hystrix-8001
     prefer-ip-address: true
-info:
-  app.name: lian-note-users
-  company.name: www.lian1998.xyz
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@

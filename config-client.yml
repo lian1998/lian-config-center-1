@@ -29,7 +29,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
 server:
-  port: 8201
+  port: 8001
 
 eureka:
   client:
@@ -68,7 +68,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
 server:
-  port: 8202
+  port: 8002
 
 eureka:
   client:

@@ -40,7 +40,7 @@ eureka:
     # 这是在 eureka 中, 此进程服务的名字
     # spring.application.name 内的值, 是该类进程(该模块进程的总名字)
     prefer-ip-address: true   # 在链接到 进程实例详细信息 链接时候显示进程所在服务器ip
- ---
+---
  logging:
 #  config: classpath:logback-spring.xml
   level:

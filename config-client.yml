@@ -1,11 +1,11 @@
 spring:
+  application:
+    name: lian-note-users
   profiles:
     active: dev
 ---
 spring:
   profiles: test
-  application:
-    name: lian-note-users
   datasource:
     schema:
       - classpath:sql/lian-note-users.sql
@@ -50,8 +50,6 @@ info:
 ---
 spring:
   profiles: dev
-  application:
-    name: lian-note-users
   datasource:
     schema:
       - classpath:sql/lian-note-users.sql

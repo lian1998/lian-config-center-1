@@ -1,2 +1,2 @@
-# LianNoteConfig
-Lian Note 2.0 配置中心
+# Lian Note 2.0 配置中心
+
